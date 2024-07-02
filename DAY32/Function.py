@@ -1,3 +1,4 @@
+#Function Addition
 def add(a, b): 
  print ("Adding : ", a + b, (a, b)) 
  return a + b 
@@ -19,3 +20,11 @@ A = add(5, 5)
 B = subtract(5, 6) 
 C = multiply(6, 5) 
 D = divide(5, 5)
+
+
+#Function calling
+def emp(name = "ABC", designation="sd"):
+    print("Employee name is : ", name)
+    print("Employee Designation is: ", designation)
+    return
+emp()
